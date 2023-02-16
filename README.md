@@ -1,4 +1,5 @@
-# AltoLogica Scripts #
+# Artificial Intelligence | Informatics Engineering [@IPVC/ESTG](https://www.ipvc.pt/estg/)  #
+Teachers: [Jorge Ribeiro](mailto:jribeiro@estg.ipvc.pt) and [Luís Teófilo](mailto:luisteofilo@estg.ipvc.pt)
 
 ### Introduction ###
 
