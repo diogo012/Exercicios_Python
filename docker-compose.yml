@@ -4,4 +4,3 @@ services:
     build: docker/python
     volumes:
       - ./src:/app
-    working_dir: /app

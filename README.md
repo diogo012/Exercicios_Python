@@ -9,7 +9,7 @@ The base code to quickly setup a python development environment, using Docker
 * Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 * Build the Docker Image by running the following command in the project's root folder:
 ```
-docker-compose up build
+docker-compose build
 ```
 
 ### Where do I indicate Python dependencies? ###
@@ -17,7 +17,7 @@ docker-compose up build
 * Use the file **requirements.txt**
 * You need to rebuild the image if dependencies are changed before the next run. The command is the same as build.
 ```
-docker-compose up build
+docker-compose build
 ```
 
 ### How to I run my app? ###
