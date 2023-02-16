@@ -1,0 +1,7 @@
+services:
+  app:
+    container_name: app
+    build: docker/python
+    volumes:
+      - ./src:/app
+    working_dir: /app
