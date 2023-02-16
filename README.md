@@ -1,6 +1,6 @@
 # Artificial Intelligence | Informatics Engineering [@IPVC/ESTG](https://www.ipvc.pt/estg/)  #
 Teachers: [Jorge Ribeiro](mailto:jribeiro@estg.ipvc.pt) and [Luís Teófilo](mailto:luisteofilo@estg.ipvc.pt)
-
+___
 ### Introduction ###
 
 The base code to quickly setup a python development environment, using Docker
