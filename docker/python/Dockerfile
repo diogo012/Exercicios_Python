@@ -1,4 +1,4 @@
-FROM python:3.9.15-slim
+FROM python:3.12.2-slim
 
 WORKDIR /app
 
@@ -6,13 +6,9 @@ WORKDIR /app
 RUN apt update
 RUN apt install curl -y
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash
-RUN apt install nodejs
+RUN apt install nodejs -y
 RUN npm install -g npm@9.2.0
 RUN npm install -g nodemon
-
-# install pg_config
-RUN apt install libpq-dev -y
-RUN apt install build-essential -y
 
 # upgrade pip
 RUN python -m pip install --upgrade pip
